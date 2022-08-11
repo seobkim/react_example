@@ -59,6 +59,7 @@ function CustomerManage(){
         <InputGroup inside style={styles}>
           <Input placeholder={placeholder} onChange={searchFlag} defaultValue={searchState} onKeyDown={enterKeyEvent}/>
           <InputGroup.Button onClick={searchEvent}>
+            
             <SearchIcon/>
           </InputGroup.Button>
         </InputGroup>

@@ -3,8 +3,7 @@ import LoginForm from './component/LoginForm';
 import { BrowserRouter, Routes, Route,Navigate} from 'react-router-dom';
 import {useEffect, useState} from 'react'
 import MainPage from './component/main';
-import NoMatch from './component/NoMatch'
-import Header from './component/Header';
+import NoMatch from './component/NoMatch';
 import CustomerManage from './component/costomer/CustomerManage';
 
 
