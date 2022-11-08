@@ -23,7 +23,8 @@ Fragment와 같이 UI를 렌더링하지 않으며, 자손들에 대한 부가�
 
 <img src="https://user-images.githubusercontent.com/61955818/197167185-714907f9-1af8-4e06-a49c-b4c1a5283794.png" width="50%" height="50%"/>
 props를 이용하여 컴포넌트로 값을 전달할때 일반 함수처럼 매개변수의 순서로 전달 X , 매개변수 순서로 값을 전달하려면 {} 중괄호 꼭 사용
-
+<img src="https://user-images.githubusercontent.com/61955818/200533688-7debfbf3-ce0b-4187-a429-932449f1c556.png" width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/61955818/200533702-c2ade262-d8c8-4385-8b3b-fe2081f74ac2.png" width="50%" height="50%"/>
 
 ```useEffect(() => {
 //아이디 저장 체크할 경우 실행
@@ -60,3 +61,9 @@ props를 이용하여 컴포넌트로 값을 전달할때 일반 함수처럼 �
       <input type="checkbox" onChange={handleOnChange} checked={saveId} id="saveId" name="saveId"/>
       	<label className="ml-2" htmlFor="saveId">아이디 저장</label>
 )```
+
+
+
+
+
+
